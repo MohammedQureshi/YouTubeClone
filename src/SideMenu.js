@@ -26,6 +26,33 @@ function SideMenu() {
                 <MenuItem Icon={AttachFileIcon} Text="Your clips" />
                 <MenuItem Icon={ExpandMoreIcon} Text="Show more" />
             </div>
+            <div className="MiddleSection">
+                <h2>BEST OF YOUTUBE</h2>
+                <MenuItem Icon={VideoLibraryIcon} Text="Music" />
+                <MenuItem Icon={VideoLibraryIcon} Text="Sport" />
+                <MenuItem Icon={VideoLibraryIcon} Text="Gaming" />
+                <MenuItem Icon={VideoLibraryIcon} Text="Movies & shows" />
+                <MenuItem Icon={VideoLibraryIcon} Text="News" />
+                <MenuItem Icon={VideoLibraryIcon} Text="Live" />
+                <MenuItem Icon={VideoLibraryIcon} Text="Fashion & beauty" />
+                <MenuItem Icon={VideoLibraryIcon} Text="Learning" />
+                <MenuItem Icon={VideoLibraryIcon} Text="Spotlight" />
+                <MenuItem Icon={VideoLibraryIcon} Text="360° Video" />
+            </div>
+            <div className="MiddleSection">
+                <MenuItem Icon={VideoLibraryIcon} Text="Browse channels" />
+            </div>
+            <div className="MiddleSection">
+                <h2>MORE FROM YOUTUBE</h2>
+                <MenuItem Icon={VideoLibraryIcon} Text="YouTube Premium" />
+                <MenuItem Icon={VideoLibraryIcon} Text="Live" />
+            </div>
+            <div className="BottomSection">
+                <MenuItem Icon={VideoLibraryIcon} Text="Settings" />
+                <MenuItem Icon={VideoLibraryIcon} Text="Report history" />
+                <MenuItem Icon={VideoLibraryIcon} Text="Help" />
+                <MenuItem Icon={VideoLibraryIcon} Text="Send feedback" />
+            </div>
         </div>
     )
 }

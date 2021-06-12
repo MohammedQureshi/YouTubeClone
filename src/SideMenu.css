@@ -7,3 +7,22 @@
     padding-bottom: 20px;
     padding-top: 20px;
 }
+
+.MiddleSection h2{
+    margin: 0;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-weight: 700;
+    font-size: 15px;
+    color: #727272;
+}
+
+.BottomSection{
+    border-bottom: 1px solid #E5E5E5;
+    padding-bottom: 20px;
+}
+
+.SideMenu{
+    margin-top: 56px;
+    z-index: -1;
+}
