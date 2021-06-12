@@ -1,0 +1,102 @@
+@import url('https://fonts.googleapis.com/css2?family=Oswald&display=swap');
+
+.youtube__header{
+    width: 100%;
+    min-height: 56px;
+    max-height: 56px;
+    display: flex;
+}
+
+.youtube__logo{
+    flex: 0.3;
+    display: flex;
+    padding: 15px;
+    color: #606060;
+}
+
+.youtube__logo > img{
+    padding-left: 20px;
+    margin-top: 2px;
+    padding-right: 5px;
+}
+
+.youtube__logo > h3{
+    margin: 0;
+    font-family: 'Oswald', sans-serif;
+    color: black;
+}
+
+.MuiSvgIcon-root{
+    padding-top: 3px;
+}
+
+.youtube__search{
+    flex: 0.4;
+    align-items: center;
+    display: flex;
+}
+
+.youtube__menu{
+    flex: 0.3;
+}
+
+.youtube__searchBar{
+    display: flex;
+    width: 575px;
+    height: 31px;
+}
+  
+.youtube__searchBar input[type=text] {
+    padding: 10px;
+    font-size: 17px;
+    border: 1px solid #C6C6C6;
+    float: left;
+    width: 85%;
+}
+
+.youtube__searchBar button {
+    float: left;
+    width: 15%;
+    padding: 10px;
+    background: #F8F8F8;
+    color: #818181;
+    font-size: 17px;
+    border: 1px solid #C6C6C6;
+    border-left: none; 
+    cursor: pointer;
+}
+
+.youtube__searchBar button:hover {
+    background: #F0F0F0;
+    color: #333333;
+}
+
+.youtube__searchIcon {
+    transform: translateY(-40%);
+}
+
+.youtube__micIcon{
+    padding: 2px;
+    padding-left: 10px;
+    color: #606060;
+}
+
+.youtube__logo img{
+    height: 25px;
+}
+
+.youtube__menu img{
+    width: 25px;
+    border-radius: 100%;
+    padding: 10px;
+}
+.youtube__menu > .MuiSvgIcon-root{
+    padding: 10px;
+    font-size: 25px; 
+}
+
+.youtube__menu{
+    text-align: right;
+    padding: 10px;
+}
+
