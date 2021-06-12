@@ -81,8 +81,10 @@
     color: #606060;
 }
 
-.youtube__logo img{
-    height: 25px;
+.youtube__materialIcon{
+    padding-left: 20px;
+    padding-right: 2px;
+    color: #FF0000;
 }
 
 .youtube__menu img{
@@ -98,5 +100,6 @@
 .youtube__menu{
     text-align: right;
     padding: 10px;
+    color: #606060;
 }
 
