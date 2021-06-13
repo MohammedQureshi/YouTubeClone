@@ -32,6 +32,7 @@
     text-align: left !important;
     font-family: inherit !important;
     text-transform: none !important; 
+    align-items: flex-start !important;
 }
 
 .Video__Clickable p{
