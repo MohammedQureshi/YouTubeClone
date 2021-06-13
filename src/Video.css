@@ -14,19 +14,29 @@
 .Video__Right > h3 {
     margin: 0;
     color: #030321;
-    padding-top: 10px;
+    padding-top: 5px;
     padding-bottom: 5px;
     font-weight: 500;
     letter-spacing: -1px;
-}
-
-.Video__Right > p {
-    margin: 0;
-    color: #60608F
 }
 
 .Video__ProfilePicture img{
     border-radius: 100%;
     width: 40px;
     padding: 10px;
+}
+
+.Video__Clickable{
+    margin: 0 !important;
+    padding: 0 !important;
+    text-align: left !important;
+    font-family: inherit !important;
+    text-transform: none !important; 
+}
+
+.Video__Clickable p{
+    margin: 0 !important;
+    color: #60608F;
+    font-weight: 400 !important;
+    text-transform: none !important; 
 }
