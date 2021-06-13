@@ -1,0 +1,32 @@
+.Video{
+    width: 100%;
+    padding: 10px;
+}
+
+.Video > img{
+    width: 100%;
+}
+
+.Video__Details {
+    display: flex;
+}
+
+.Video__Right > h3 {
+    margin: 0;
+    color: #030321;
+    padding-top: 10px;
+    padding-bottom: 5px;
+    font-weight: 500;
+    letter-spacing: -1px;
+}
+
+.Video__Right > p {
+    margin: 0;
+    color: #60608F
+}
+
+.Video__ProfilePicture img{
+    border-radius: 100%;
+    width: 40px;
+    padding: 10px;
+}

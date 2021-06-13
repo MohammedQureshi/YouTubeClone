@@ -1,7 +1,18 @@
 .Videos{
     margin-top: 56px;
-    z-index: -1;
+    background-color: #F9F9F9;
+    overflow-y: scroll;
+    height: calc(100vh - 60px);
+    
 }
 .Videos > h1 {
     margin: 0;
 }
+
+.Section{
+    display: flex;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 10px;
+}
+

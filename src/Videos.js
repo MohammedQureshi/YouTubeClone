@@ -1,10 +1,38 @@
 import React from 'react'
 import './Videos.css'
+import Video from './Video'
 
 function Videos() {
     return (
         <div className="Videos">
-            <h1>Hello</h1> 
+            <div className="Section">
+                <Video className="Videos__Flex" />
+                <Video className="Videos__Flex" />
+                <Video className="Videos__Flex" />
+                <Video className="Videos__Flex" />
+            </div>
+
+            <div className="Section">
+                <Video className="Videos__Flex" />
+                <Video className="Videos__Flex" />
+                <Video className="Videos__Flex" />
+                <Video className="Videos__Flex" />
+            </div>
+
+            <div className="Section">
+                <Video className="Videos__Flex" />
+                <Video className="Videos__Flex" />
+                <Video className="Videos__Flex" />
+                <Video className="Videos__Flex" />
+            </div>
+
+            <div className="Section">
+                <Video className="Videos__Flex" />
+                <Video className="Videos__Flex" />
+                <Video className="Videos__Flex" />
+                <Video className="Videos__Flex" />
+            </div>
+
         </div>
     )
 }
